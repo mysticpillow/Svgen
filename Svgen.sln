@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateApp", "TemplateApp\TemplateApp.csproj", "{10A67C8A-245D-4196-A536-9934E6B66FBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "src\SvgenDemo", "src\SvgenDemo\SvgenDemo.csproj", "{10A67C8A-245D-4196-A536-9934E6B66FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
