@@ -2,7 +2,7 @@
 using Avalonia.Svg.Skia;
 using System;
 
-namespace TemplateApp;
+namespace SvgenDemo;
 
 sealed class Program
 {

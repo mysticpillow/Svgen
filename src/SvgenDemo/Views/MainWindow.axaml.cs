@@ -1,6 +1,6 @@
 ﻿using Avalonia.Controls;
 
-namespace TemplateApp.Views;
+namespace SvgenDemo.Views;
 
 public partial class MainWindow : Window
 {

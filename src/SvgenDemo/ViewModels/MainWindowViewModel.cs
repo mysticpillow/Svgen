@@ -1,4 +1,4 @@
-﻿namespace TemplateApp.ViewModels;
+﻿namespace SvgenDemo.ViewModels;
 
 public partial class MainWindowViewModel : ViewModelBase
 {

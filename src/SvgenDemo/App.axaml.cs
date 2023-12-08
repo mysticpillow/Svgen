@@ -2,10 +2,10 @@
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
-using TemplateApp.ViewModels;
-using TemplateApp.Views;
+using SvgenDemo.ViewModels;
+using SvgenDemo.Views;
 
-namespace TemplateApp;
+namespace SvgenDemo;
 
 public partial class App : Application
 {

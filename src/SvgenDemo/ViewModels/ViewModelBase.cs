@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace TemplateApp.ViewModels;
+namespace SvgenDemo.ViewModels;
 
 public class ViewModelBase : ObservableObject
 {
