@@ -11,23 +11,15 @@
     d:DesignWidth="800"
     x:DataType="vm:MainWindowViewModel"
     mc:Ignorable="d">
-
-    <Design.DataContext>
-        <!--
-            This only sets the DataContext for the previewer in an IDE,
-            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs)
-        -->
-        <vm:MainWindowViewModel />
-    </Design.DataContext>
     <DockPanel>
         <ContentControl
             Width="200"
             Height="200"
             Background="AntiqueWhite">
-            <Svg
+            <Image
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
-                Path="{x:Static resources:SvgResources.A}" />
+                Source="{x:Static resources:SvgResources.A}" />
         </ContentControl>
     </DockPanel>
 </Window>
