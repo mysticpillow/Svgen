@@ -19,7 +19,7 @@
             <Image
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
-                Source="{x:Static resources:SvgResources.A}" />
+                Source="{x:Static resources:SvgResources.APathSvg}" />
         </ContentControl>
     </DockPanel>
 </Window>

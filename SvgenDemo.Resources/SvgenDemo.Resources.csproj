@@ -7,11 +7,11 @@
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <AvaloniaResource Include="SvgImages\**"></AvaloniaResource>
+    <AvaloniaResource Include="SvgImages\**\*.svg" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.0.6" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.6" />
@@ -19,5 +19,9 @@
     <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.6" />
     <PackageReference Include="Avalonia.Svg.Skia" Version="11.0.0.7" />
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svgen.Generators\Svgen.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="all"/>
   </ItemGroup>
 </Project>
